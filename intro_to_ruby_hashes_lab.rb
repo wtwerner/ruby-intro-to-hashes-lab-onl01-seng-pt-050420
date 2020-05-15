@@ -18,10 +18,8 @@ end
 def monopoly_with_third_tier
   monopoly = {
     :pieces => 4,
-    :names => { }
+    :names => {}
       }
-
-
 end
 
 def monopoly_with_fourth_tier
