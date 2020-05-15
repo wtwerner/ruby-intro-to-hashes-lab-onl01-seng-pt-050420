@@ -1,4 +1,4 @@
-require pry
+require 'pry'
 
 def new_hash
   hash = {}
@@ -22,6 +22,7 @@ def monopoly_with_third_tier
     :pieces => 4,
     :names => {}
   }}
+  binding.pry
 end
 
 def monopoly_with_fourth_tier
