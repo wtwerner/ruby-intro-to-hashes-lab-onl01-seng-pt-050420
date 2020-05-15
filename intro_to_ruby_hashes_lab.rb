@@ -16,30 +16,11 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
-{
+  monopoly = {
     :pieces => 4,
-    :names =>
-    {
-      :reading_railroad=>
-      {
-        "mortgage_value"=>"$100"
-      },
-      :pennsylvania_railroad=>
-      {
-        "mortgage_value"=>"$200"
-      },
-      :b_and_o_railroad=>
-      {
-        "mortgage_value"=>"$400"
-      },
-      :shortline=>
-      {
-        "mortgage_value"=>"$800"
+    :names => {}
       }
-    }
-  }
-}
-}
+
 
 end
 
